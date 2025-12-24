@@ -1,0 +1,37 @@
+{
+    "name": "Savoria Restaurant - Reservations",
+    "short_name": "Savoria Reserve",
+    "description": "Reserve your table at Savoria Restaurant. Experience award-winning fine dining.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fffbf5",
+    "theme_color": "#c9a86c",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "en",
+    "categories": [
+        "food",
+        "restaurants",
+        "reservations"
+    ],
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/favicon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
