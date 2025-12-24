@@ -8,14 +8,8 @@ export default defineConfig({
         open: true,
     },
     build: {
-        // Enable minification with terser for better compression
-        minify: 'terser',
-        terserOptions: {
-            compress: {
-                drop_console: true,
-                drop_debugger: true,
-            },
-        },
+        // Enable minification with esbuild (default, faster than terser)
+        minify: 'esbuild',
         // Disable source maps in production
         sourcemap: false,
         // Optimize chunk splitting for better caching
